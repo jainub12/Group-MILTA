@@ -23,8 +23,8 @@ header {
 }
 
 header h1 {
-  font-size: 2.2rem;
-  margin-bottom: 5px;
+  font-size: 2rem;
+  margin-bottom: 6px;
 }
 
 header p {
@@ -32,12 +32,12 @@ header p {
   opacity: 0.9;
 }
 
-/* Video Cards */
+/* Video Card */
 .video-card {
-  margin: 30px auto 10px;
+  margin: 40px auto 15px;
   padding: 20px;
   width: 90%;
-  max-width: 800px;
+  max-width: 750px;
   border-radius: 20px;
   background: rgba(255, 255, 255, 0.25);
   backdrop-filter: blur(12px);
@@ -58,12 +58,12 @@ video {
   margin-top: 10px;
 }
 
-/* Audio Cards */
+/* Audio Card */
 .audio-card {
-  margin: 10px auto 30px;
+  margin: 15px auto 40px;
   padding: 20px;
   width: 80%;
-  max-width: 500px;
+  max-width: 450px;
   border-radius: 20px;
   background: rgba(255,255,255,0.4);
   backdrop-filter: blur(10px);
@@ -84,30 +84,19 @@ video {
 
 audio {
   width: 100%;
-  max-width: 400px;
+  max-width: 350px;
   display: block;
   margin: 0 auto;
   border-radius: 10px;
   padding: 6px;
 }
 
-/* Animations shits */
+/* Animation */
 .animate {
   opacity: 0;
   transform: translateY(40px);
   animation: fadeUp 0.9s ease forwards;
 }
-
-.animate:nth-child(1) { animation-delay: 0.2s; }
-.animate:nth-child(2) { animation-delay: 0.4s; }
-.animate:nth-child(3) { animation-delay: 0.6s; }
-.animate:nth-child(4) { animation-delay: 0.8s; }
-.animate:nth-child(5) { animation-delay: 1s; }
-.animate:nth-child(6) { animation-delay: 1.2s; }
-.animate:nth-child(7) { animation-delay: 1.4s; }
-.animate:nth-child(8) { animation-delay: 1.6s; }
-.animate:nth-child(9) { animation-delay: 1.8s; }
-.animate:nth-child(10){ animation-delay: 2s; }
 
 @keyframes fadeUp {
   to {
@@ -116,28 +105,14 @@ audio {
   }
 }
 
-/* Backgrounds heheheheh */
+/* Backgrounds */
 .bg1  { background: linear-gradient(135deg, #ffecd2, #fcb69f); }
-.bg2  { background: linear-gradient(135deg, #a1c4fd, #c2e9fb); }
-.bg3  { background: linear-gradient(135deg, #fbc2eb, #a6c1ee); }
-.bg4  { background: linear-gradient(135deg, #d4fc79, #96e6a1); }
-.bg5  { background: linear-gradient(135deg, #84fab0, #8fd3f4); }
+.bgA1 { background: linear-gradient(135deg, #ff9a9e, #fad0c4); }
 
-.bgA1 { background-image: url(https://lastfm.freetls.fastly.net/i/u/300x300/2c1e6bb800674d67878c9580fdd0cfd9.jpg); }
-.bgA2 {background-image: url(https://cdn-images.dzcdn.net/images/cover/8e91219378fe75b74f6649cebf292e59/0x1900-000000-80-0-0.jpg); }
-.bgA3 { background-image: url(https://i.scdn.co/image/ab67616d0000b273e9cfbebbdfc182c1adc73da6); }
-.bgA4 { background-image: url(https://i.scdn.co/image/ab67616d0000b27381052badd62d5e14c3377786); }
-.bgA5 { background-image: url(https://i.scdn.co/image/ab67616d0000b273a71ebeb329302d1ee577a566); }
-
-.bgA1 {background-size: contain;}
-.bgA2 {background-size: contain;}
-.bgA3 {background-size: contain;}
-.bgA4 {background-size: contain;}
-.bgA5 {background-size: contain;}
 /* Footer */
 footer {
-  margin-top: 40px;
-  padding: 15px;
+  margin-top: 20px;
+  padding: 12px;
   background: #2575fc;
   color: white;
   font-size: 0.9rem;
