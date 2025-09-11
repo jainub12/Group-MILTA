@@ -147,7 +147,29 @@ video {
   }
 }
 
+<<<<<<< HEAD
 /* Footer */
+=======
+/* Backgrounds heheheheh */
+.bg1  { background: linear-gradient(135deg, #ffecd2, #fcb69f); }
+.bg2  { background: linear-gradient(135deg, #a1c4fd, #c2e9fb); }
+.bg3  { background: linear-gradient(135deg, #fbc2eb, #a6c1ee); }
+.bg4  { background: linear-gradient(135deg, #d4fc79, #96e6a1); }
+.bg5  { background: linear-gradient(135deg, #84fab0, #8fd3f4); }
+
+.bgA1 { background-image: url(https://i.scdn.co/image/ab67616d0000b273b30373d60c33d56579155468); }
+.bgA2 {background-image: url(https://cdn-images.dzcdn.net/images/cover/8e91219378fe75b74f6649cebf292e59/0x1900-000000-80-0-0.jpg); }
+.bgA3 { background-image: url(https://i.scdn.co/image/ab67616d0000b273e9cfbebbdfc182c1adc73da6); }
+.bgA4 { background-image: url(https://i.scdn.co/image/ab67616d0000b27381052badd62d5e14c3377786); }
+.bgA5 { background-image: url(https://i.scdn.co/image/ab67616d0000b273a71ebeb329302d1ee577a566); }
+
+.bgA1 {background-size: contain;}
+.bgA2 {background-size: contain;}
+.bgA3 {background-size: contain;}
+.bgA4 {background-size: contain;}
+.bgA5 {background-size: contain;}
+
+>>>>>>> 4529ce4e90e29c866cb55885c47c10dcbb49bd89
 footer {
   margin-top: 40px;
   padding: 15px;
