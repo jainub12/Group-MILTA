@@ -7,19 +7,20 @@
 
 body {
   font-family: "Poppins", Arial, sans-serif;
-  background: linear-gradient(120deg, #fdfbfb, #ebedee);
+  background: #f7f7f7; /* clean light background */
   color: #333;
   text-align: center;
+  line-height: 1.6;
 }
 
 /* Header */
 header {
-  background: linear-gradient(90deg, #6a11cb, #2575fc);
+  background: #111; /* solid black */
   color: white;
   padding: 25px 15px;
-  box-shadow: 0 3px 12px rgba(0,0,0,0.2);
-  border-bottom-left-radius: 20px;
-  border-bottom-right-radius: 20px;
+  box-shadow: 0 3px 12px rgba(0,0,0,0.15);
+  border-bottom-left-radius: 18px;
+  border-bottom-right-radius: 18px;
 }
 
 header h1 {
@@ -29,7 +30,7 @@ header h1 {
 
 header p {
   font-size: 1rem;
-  opacity: 0.9;
+  opacity: 0.85;
 }
 
 /* Video Card */
@@ -38,16 +39,15 @@ header p {
   padding: 20px;
   width: 90%;
   max-width: 750px;
-  border-radius: 20px;
-  background: rgba(255, 255, 255, 0.25);
-  backdrop-filter: blur(12px);
-  border: 1px solid rgba(255,255,255,0.5);
-  box-shadow: 0 8px 20px rgba(0,0,0,0.1);
+  border-radius: 16px;
+  background: #fff; /* flat card */
+  border: 1px solid #e0e0e0;
+  box-shadow: 0 6px 18px rgba(0,0,0,0.08);
   transition: transform 0.3s, box-shadow 0.3s;
 }
 .video-card:hover {
   transform: translateY(-6px);
-  box-shadow: 0 12px 25px rgba(0,0,0,0.15);
+  box-shadow: 0 10px 25px rgba(0,0,0,0.15);
 }
 
 video {
@@ -60,20 +60,19 @@ video {
 
 /* Audio Card */
 .audio-card {
-  margin: 15px auto 40px;
+  margin: 20px auto 40px;
   padding: 20px;
-  width: 80%;
+  width: 85%;
   max-width: 450px;
-  border-radius: 20px;
-  background: rgba(255,255,255,0.4);
-  backdrop-filter: blur(10px);
-  border: 1px solid rgba(255,255,255,0.3);
-  box-shadow: 0 6px 18px rgba(0,0,0,0.1);
+  border-radius: 16px;
+  background: #fff;
+  border: 1px solid #e0e0e0;
+  box-shadow: 0 4px 14px rgba(0,0,0,0.08);
   transition: transform 0.3s, box-shadow 0.3s;
 }
 .audio-card:hover {
   transform: translateY(-5px);
-  box-shadow: 0 10px 22px rgba(0,0,0,0.15);
+  box-shadow: 0 8px 20px rgba(0,0,0,0.15);
 }
 
 .audio-card h3 {
@@ -87,8 +86,9 @@ audio {
   max-width: 350px;
   display: block;
   margin: 0 auto;
-  border-radius: 10px;
+  border-radius: 6px;
   padding: 6px;
+  background: #f0f0f0;
 }
 
 /* Animation */
@@ -105,17 +105,13 @@ audio {
   }
 }
 
-/* Backgrounds */
-.bg1  { background: linear-gradient(135deg, #ffecd2, #fcb69f); }
-.bgA1 { background: linear-gradient(135deg, #ff9a9e, #fad0c4); }
-
 /* Footer */
 footer {
-  margin-top: 20px;
-  padding: 12px;
-  background: #2575fc;
+  margin-top: 30px;
+  padding: 15px;
+  background: #111;
   color: white;
   font-size: 0.9rem;
-  border-top-left-radius: 20px;
-  border-top-right-radius: 20px;
+  border-top-left-radius: 18px;
+  border-top-right-radius: 18px;
 }
